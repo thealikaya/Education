@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- FONT-AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Educational Website</title>
+</head>
+<body>
+    <!-- HEADER -->
+     <header id="header" class="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img class="nav__logo-img" src="img/logo.png" alt="">
+            </a>
+            <div id="nav-menu" class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a class="active-link nav__link" href="#">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Courses</a>
+                    </li>                    
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">About</a>
+                    </li>                    
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Dashboard</a>
+                    </li>                    
+                </ul>
+                <div id="nav-close" class="nav__close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <div class="nav__btns">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <a href="#" class="nav__link sign__in-desktop">
+                    <i class="fa-solid fa-right-to-bracket"></i> Sign in
+                </a>
+                <a href="#" class="btn sign__in">
+                    <i class="fa-solid fa-right-to-bracket"></i> Sign In
+                </a>
+                <a href="#" class="btn get__started">Get Started</a>
+            </div>
+        </nav>
+
+        <div class="nav__overlay" id="nav-overlay">
+        </div>
+        
+     </header>
+
+     <!-- HOME -->
+      <section class="home">
+        <div class="home__container container grid">
+            <div class="home__data">
+                <h1 class="home__title">Find the Most Exciting Online Cources</h1>
+                <p class="home__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quos natus aliquam libero mollitia nemo consectetur sunt ipsam! Quisquam, deserunt.</p>
+                <div class="home__search">
+                    <i class="fa-solid fa-magnifying-glass search__icon"></i>
+                    <input type="text" placeholder="Search Your Cources" 
+                    class="search__input"> 
+                    <button class="search__btn btn">Search</button>  
+                </div>
+                <div class="home__info">
+                    <div class="info__item">
+                        <h4 class="info__no">72K</h4>
+                        <span class="info__title">Appreciations</span>
+                    </div>
+                    <div class="info__item">
+                        <h4 class="info__no">100</h4>
+                        <span class="info__title">Countries</span>
+                    </div>                    
+                    <div class="info__item">
+                        <h4 class="info__no">5.2K+</h4>
+                        <span class="info__title">Courses</span>
+                    </div>                    
+                </div>
+            </div>
+            <img src="img/hero-img.png" alt="" class="home__img">
+        </div>
+      </section>
+
+      <!-- STATS -->
+       <section class="stats">
+        <div class="stats__container container grid">
+            <div class="stats__item">
+                <div class="stats__icon">
+                    <i class="fa-solid fa-book-journal-whills"></i>
+                </div>
+                <div class="stats__data">
+                    <h3 class="stats__title">200+ Cources</h3>
+                    <p class="stats__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, sed.
+                    </p>
+                </div>
+            </div>
+            <div class="stats__item">
+                <div class="stats__icon">
+                    <i class="fa-solid fa-business-time"></i>
+                </div>
+                <div class="stats__data">
+                    <h3 class="stats__title">Lifetime Access</h3>
+                    <p class="stats__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, sed.
+                    </p>
+                </div>
+            </div>
+            <div class="stats__item">
+                <div class="stats__icon">
+                    <i class="fa-solid fa-user-shield"></i>
+                </div>
+                <div class="stats__data">
+                    <h3 class="stats__title">800K Enrolled</h3>
+                    <p class="stats__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, sed.
+                    </p>
+                </div>
+            </div>
+        </div>
+       </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
